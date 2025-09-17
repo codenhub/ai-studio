@@ -1,0 +1,10 @@
+@layer base {
+  html,
+  body {
+    @apply flex flex-col min-h-screen w-full;
+  }
+
+  button {
+    @apply [&:not(:disabled)]:cursor-pointer;
+  }
+}
