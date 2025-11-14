@@ -1,5 +1,9 @@
 @layer components {
   .primary-btn {
-    @apply flex items-center justify-center px-4 py-2 bg-neutral-950 text-neutral-50 rounded-md hover:bg-neutral-800 transition-all duration-400;
+    @apply flex items-center justify-center px-4 py-2 gap-2 bg-primary text-primary-contrast rounded-md hover:bg-primary-hover transition-all duration-400;
+  }
+
+  .secondary-btn {
+    @apply flex items-center justify-center px-4 py-2 gap-2 bg-accent text-accent-contrast border border-border rounded-md hover:bg-accent-hover transition-all duration-400;
   }
 }

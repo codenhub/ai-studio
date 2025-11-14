@@ -3,7 +3,19 @@
   "atDirectives": [
     {
       "name": "@apply",
-      "description": "Apply a set of TailwindCSS utility classes to an element."
+      "description": "A custom at-rule for applying TailwindCSS utility classes."
+    },
+    {
+      "name": "@theme",
+      "description": "A custom at-rule for defining TailwindCSS variables."
+    },
+    {
+      "name": "@reference",
+      "description": "A custom at-rule for referencing other CSS files."
+    },
+    {
+      "name": "@utility",
+      "description": "A custom at-rule for defining TailwindCSS utility classes."
     }
   ]
 }

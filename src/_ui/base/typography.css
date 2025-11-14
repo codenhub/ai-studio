@@ -1,10 +1,22 @@
+@font-face {
+  font-family: "Nunito";
+  src: url("/assets/fonts/Nunito-Variable.woff2") format("woff2");
+  font-weight: 200 900;
+  font-style: normal;
+}
+
+@utility font-nunito {
+  font-family: "Nunito", sans-serif;
+}
+
 @layer base {
   * {
-    font-family: "Segoe UI", system-ui, sans-serif;
+    font-family: "Inter", "Segoe UI", "Roboto", "Open Sans", sans-serif;
+    color: var(--color-text);
   }
 
   h1 {
-    @apply text-7xl font-bold tracking-tighter;
+    @apply text-7xl font-bold font-nunito tracking-tighter;
   }
 
   h2 {
